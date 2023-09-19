@@ -6,7 +6,7 @@ import java.util.Scanner;//Scanner追加
 public class 藤倉班 {
 
 	public static void main(String[] args) {
-		
+
 		Scanner stdIn = new Scanner(System.in);//Scanner文と
 		Random rnd = new Random();//Random文の追加
 
@@ -158,14 +158,14 @@ public class 藤倉班 {
 
 			//変更が選ばれた時の処理
 			if (k == 2) {
-				
+
 				//a1は入れ替え元の列選択
 				//a2は入れ替え元の行選択
 				//a3は入れ替え先の列選択
 				//a4は入れ替え先の行選択
 
 				int a1 = 0;
-				
+
 				//①配列が６×６のため1未満か、６より大きい数字が入力されたら再入力させる
 				while (a1 < 1 || a1 > 6) {
 					System.out.println("入れ替え元を入力してね[][]←側");
@@ -226,7 +226,7 @@ public class 藤倉班 {
 			}
 
 			//1と2以外を選んだ輩用
-			else{
+			else {
 				//134行目のwhileに戻る
 			}
 			/////////////////////////////////////
